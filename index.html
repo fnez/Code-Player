@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+
+			<div id="menuBar">
+				<div id="logo">Code Player</div>
+
+				<div id="buttonDiv">
+				<button id="runButton">Test</button>
+			</div>
+
+			<div id="toggle">
+				<button class="toggleLi selected">HTML</button>
+				<button class="toggleLi">CSS</button>
+				<button class="toggleLi selected">Result</button>
+			</div>
+
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="codeContainer" id="HTMLContainer">
+			<div class="codeLabel">HTML</div>
+			<textarea id="htmlCode"><div id="test"></div></textarea>
+		</div>
+
+		<div class="codeContainer" id="CSSContainer">
+			<div class="codeLabel">CSS</div>
+			<textarea id="cssCode">html {background-color:blue}</textarea>
+		</div>
+
+		<div class="codeContainer" id="ResultContainer">
+			<div class="codeLabel">Result</div>
+			<iframe id="resultFrame"></iframe>
+		</div>
+	
+	</body>
+</html>
